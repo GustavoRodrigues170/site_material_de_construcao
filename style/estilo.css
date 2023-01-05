@@ -1,0 +1,513 @@
+* {
+    padding:0;
+    margin:0;
+    border:0
+}
+
+body {
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* MENU CSS */
+
+#nav {
+    background-color: #181a24;
+}
+
+#nav a {
+    text-align: center;
+    color: white;
+}
+
+#nav li a:hover {
+
+    border-bottom: 2px solid white;
+}
+
+#botao {
+    color: white;
+    border-color: white;
+}
+
+.categorias-box {
+    padding-top: 10px;
+    background-color: #05283a;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo {
+    margin-left: 25px;
+    width: 60px;
+    height: 60px;
+}
+
+.barra-pesquisa {
+    float: left;
+    width: 350px;
+    height: 40px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    background-color: ghostwhite;
+    margin-left: 62px;
+}
+
+.barra-pesquisa input[type='text'] {
+    float: left;
+    width: 90%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    padding: 0 10px;
+
+}
+
+.barra-pesquisa button {
+    float: left;
+    width: 10%;
+    height: 100%;
+    border: none;
+    background: ghostwhite;
+
+}
+
+/* INDEX CSS */
+
+.index-box {
+    text-align: center;
+}
+
+.botao-vermais button {
+    background: transparent;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: ghostwhite;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.botao-vermais:hover button {
+    background: indigo;
+    color: white;
+}
+
+
+.title-mv {
+    margin-top: 50px;
+    margin-bottom: 20px;
+   
+}
+
+#border-produto {
+    border: 2px solid rgb(175, 190, 248);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    height: 380px;
+
+}
+
+#desconto{
+    background-color: #202020;
+    display: inline-block;
+    position: absolute;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: yellow;
+    display: inline-block;
+}
+
+.nome-produtos {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.preco-desconto {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 13px;
+}
+
+.preco-descontado {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.index-box a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.imagem-produtos {
+    margin-top: 30px;
+    height: 150px;
+    width: 150px;
+}
+
+.title {
+    margin-top: 50px;
+}
+
+.caminho-barra {
+    background-color: #05283a;
+    margin-left: 0px;
+    margin-right: 1px;
+}
+
+.caminho-barra p {
+    margin-top: 10px;
+    color: white;
+}
+
+.caminho-barra a {
+    text-decoration: none;
+    color: white;
+    margin-left: 0px;
+}
+
+.caminho-barra a:hover {
+    text-decoration: none;
+    color: royalblue; 
+}
+
+.login-box a {
+    text-decoration: none;
+    color: white;
+}
+
+.login-box a:hover {
+    text-decoration: none;
+    color: rgb(0, 177, 0); 
+}
+
+.login-box button {
+    background-color: #202020;
+}
+
+.form-box {
+    margin-top: 20px;
+    margin-left: 1px;
+}
+
+.produtos-box {
+    margin-top: 50px;
+}
+
+.produtos-box a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.produtos-box a:hover {
+    text-decoration: none;
+    color: rgb(0, 177, 0); 
+}
+
+.row-filtro {
+    margin-top: 20px;
+    background-color: #05283a;
+    color: white;
+    margin-left: 0px;  
+    padding: 10px;
+    margin-right: 1px;
+}
+
+.descricao-produto h3{
+    margin-top: 20px;
+}
+
+.descricao-produto h5{
+    margin-top: 20px;
+}
+
+.descricao-produto p{
+    text-align: justify;
+}
+
+.imagem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.coluna-direito h5{
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-left: 16px;
+
+}
+
+.frete label {
+    margin-top: 45px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 16px;
+}
+
+.frete input {
+    border: 1px solid royalblue;
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.coluna-direito {
+    text-align: center;
+}
+
+.coluna-direito button {
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    background-color: indigo;
+    width: 300px;
+}
+
+.coluna-direito button:hover {
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    background-color: indigo;
+    width: 300px;
+}
+
+.coluna-direito i {
+    text-align: end;
+}
+
+.row-barra-itens {
+    margin-top: 20px;
+    background-color: #05283a;
+    color: white;
+    margin-left: 0px; 
+    text-align: center;
+    margin-right: 1px;
+}
+
+.row-barra-itens p {
+    margin-top: 10px;
+}
+
+.row-itens {
+    text-align: center;
+}
+
+.row-itens img {
+    height: 80px;
+    width: 80px;
+}
+
+#quantidade-produtos {
+    border: 1px solid gray;
+    margin-top: 60px;
+    width: 50px;
+    text-align: center;
+}
+
+.divisao {
+    background-color: #05283a;
+    color: #05283a;
+}
+
+.row-itens button {
+    margin-top: 50px;
+    background-color: #181a24;
+}
+
+.row-itens a {
+    text-decoration: none;
+    color: white;
+}
+
+.row-itens i {
+    font-size: 20px;
+    color: red; 
+}
+
+.row-itens-cadastrados {
+    text-align: center;
+}
+
+.row-itens-cadastrados img {
+    height: 80px;
+    width: 80px;
+}
+
+.row-itens-cadastrados a {
+    text-decoration: none;
+    color: white;
+}
+
+.row-itens-cadastrados button {
+    margin-top: 50px;
+}
+
+.preco-margin {
+    margin-top: 60px;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.formulario form {
+    text-align: center;
+}
+
+.form {
+    width: 70%;
+    
+}
+
+.form label {
+    margin-top: 20px;
+}
+
+.form button {
+    margin-top: 20px;
+    background-color: royalblue;
+}
+
+.form a {
+    text-decoration: none;
+    color: white;
+}
+
+.cadastro-link a{
+    color: royalblue;
+}
+
+.perfil {
+    text-align: center;
+}
+
+.perfil h5 {
+    margin-top: 20px;
+    color: white;
+    background-color: #05283a;
+    padding: 10px;
+}
+
+
+.perfil button {
+    background-color: royalblue;
+    color: white;
+}
+
+.perfil a {
+    text-decoration: none;
+    color: white;
+}
+
+.botao-cadastrar {
+    text-align: end;
+}
+
+.botao-cadastrar button{
+    background-color: royalblue;
+    color: white;
+}
+
+.botao-cadastrar a{
+    text-decoration: none;
+    color: white;
+}
+
+.descricao {
+    border: 1px solid gray;
+}
+
+
+/* FOOTER CSS */
+
+#name-footer {
+    margin-top: 80px;
+    font-size: 25px;
+}
+
+
+#contact-area {
+    margin-top: 140px;
+    background-color: #181a24;
+
+}
+
+.contact-box {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: end;
+}
+
+.contact-box i{
+    color: white;
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.contact-box p {
+    font-size: 15px;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: white;
+}
+
+.contact-box p {
+    color: white;
+}
+
+.nome-categoria {
+    margin-top: 45px;
+}
+
+.button-geral {
+    margin-top: 10px;
+}
+
+textarea {
+    width: 450px;
+    border: 1px solid #C0C0C0;
+    border-radius: 5px;
+}
+
+.radio {
+    height: 30px;
+}
+
+.label-produto {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.icon-editar img{
+    margin-top: 45px;
+    height: 24px;
+    width: 24px;
+
+}
+
+.img-editar {
+    margin-top: 30px;
+}
+
+.img-editar img{
+    width: 80px;
+    height: 80px;
+}
